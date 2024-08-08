@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Etch a Sketch</h1>
+
+    <div class="button">
+      <button type="button" onclick="setRandom('black')">Black</button>
+      <button type="button" onclick="setRandom('random')">Random</button>
+      <button type="button" onclick="reset()">Reset</button>
+    </div>
+    <!-- container -->
+    <div class="container"></div>
+    <!-- end of container -->
+    <div class="sliderContainer">
+      <input type="range" min="1" max="50" value="16" class="slider" />
+      <p class="value"></p>
+    </div>
+  </body>
+</html>
